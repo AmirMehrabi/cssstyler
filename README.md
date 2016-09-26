@@ -1,3 +1,8 @@
+## Disclaimer of credit ##
+
+This project is a fork. Take a look at the [Main repo](https://github.com/senchalabs/cssbeautify) .
+
+
 # CSS Beautify #
 
 CSS Beautify is a JavaScript implementation of reindenter and reformatter for styles written in [CSS](http://www.w3.org/Style/CSS/).
@@ -25,9 +30,7 @@ command-line use, install Node.js [cssbeautify](https://npmjs.org/package/cssbea
 
 For more examples, see also its [test suite](http://cssbeautify.com/test/).
 
-## Disclaimer of credit ##
 
-This project is a fork. Take a look at the [Main repo](https://github.com/senchalabs/cssbeautify) .
 
 
 ## Using cssbeautify() function ##
