@@ -1,0 +1,60 @@
+@font-face {
+	font-family: 'Vazir';
+        src: url('Vazir.eot');
+
+	src: url(  'Light-Vazir.eot?#iefix') format('eot'),  /* IE6–8 */
+url(  'Vazir.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+url(  'Vazir.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url(  'Vazir.ttf') format('ttf');
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'Vazir';
+        src: url(  'Vazir.eot');
+
+	src: url(  'Vazir.eot?#iefix') format('eot'),  /* IE6–8 */
+url(  'Vazir.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+url(  'Vazir.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url(  'Vazir.ttf') format('ttf');
+	font-weight: 500;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: Samim;
+  src: url('Samim.eot');
+  src: url('Samim.eot?#iefix') format('embedded-opentype'),
+       url('Samim.woff') format('woff'),
+       url('Samim.ttf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Samim;
+  src: url('Samim-Bold.eot');
+  src: url('Samim-Bold.eot?#iefix') format('embedded-opentype'),
+       url('Samim-Bold.woff') format('woff'),
+       url('Samim-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+@font-face {
+	font-family: 'Gandom';
+        src: url(  'Gandom.eot');
+
+	src: url(  'Gandom.eot?#iefix') format('eot'),  /* IE6–8 */
+url(  'Gandom.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+url(  'Gandom.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+url(  'Gandom.ttf') format('ttf');
+	font-weight: 500;
+}
