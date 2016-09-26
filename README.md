@@ -25,6 +25,11 @@ command-line use, install Node.js [cssbeautify](https://npmjs.org/package/cssbea
 
 For more examples, see also its [test suite](http://cssbeautify.com/test/).
 
+## Disclaimer of credit $$
+
+This project is a fork. Take a look at the [Main repo](https://github.com/senchalabs/cssbeautify) .
+
+
 ## Using cssbeautify() function ##
 
 Since CSS Beautify is written in pure JavaScript, it can run anywhere that JavaScript can run.
@@ -53,7 +58,7 @@ var beautified = cssbeautify('menu{opacity:.7}', {
 
 ## Contributing ##
 
-Contributions are welcomed! Please read the [Contribution Guide](https://github.com/senchalabs/cssbeautify/blob/master/CONTRIBUTING.md) for more info.
+Contributions are welcomed! Please read the [Contribution Guide](https://github.com/AmirMehrabi/cssstyler/blob/master/CONTRIBUTING.md) for more info.
 
 ## License ##
 
