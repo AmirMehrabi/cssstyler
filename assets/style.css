@@ -135,7 +135,7 @@ section.options {
 
 .footer {
     margin-top: 25px;
-    background: #fff;
+    background: #FCF8E3;
     color: #555;
     text-align: center;
     padding: 20px;
@@ -198,4 +198,8 @@ p.sub-brand-name {
     -ms-filter: "progid:DXImageTransform.Microsoft.dropshadow(OffX=0,OffY=1,Color=#2effffff,Positive=true)";
     zoom: 1;
     font-family: 'Gandom';
+}
+
+.description {
+    vertical-align: middle;
 }
