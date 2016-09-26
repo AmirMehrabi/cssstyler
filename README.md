@@ -25,7 +25,7 @@ command-line use, install Node.js [cssbeautify](https://npmjs.org/package/cssbea
 
 For more examples, see also its [test suite](http://cssbeautify.com/test/).
 
-## Disclaimer of credit $$
+## Disclaimer of credit ##
 
 This project is a fork. Take a look at the [Main repo](https://github.com/senchalabs/cssbeautify) .
 
