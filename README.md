@@ -1,7 +1,7 @@
 ## Disclaimer of credit ##
 
 This project is a fork. Take a look at the [Main repo](https://github.com/senchalabs/cssbeautify) .
-
+このプロジェクトはフォークです。 [Main repo]（https://github.com/senchalabs/cssbeautify）をご覧ください。
 
 # CSS Beautify #
 
@@ -9,11 +9,17 @@ CSS Beautify is a JavaScript implementation of reindenter and reformatter for st
 
 Given the following style:
 
+CSS Beautifyは、[CSS]（http://www.w3.org/Style/CSS/）で記述されたスタイルのreindenterとリフォーマッターのJavaScript実装です。
+
+次のスタイルを考えます：
+
 ```css
 menu{color:red} navigation{background-color:#333}
 ```
 
 CSS Beautify will produce:
+
+CSS Beautifyは以下を生成します。
 
 ```css
 menu {
@@ -38,6 +44,22 @@ For more examples, see also its [test suite](http://cssbeautify.com/test/).
 Since CSS Beautify is written in pure JavaScript, it can run anywhere that JavaScript can run.
 
 The API is very simple:
+
+
+ Learn to pronounce
+[cssbeautify.com]（http://cssbeautify.com）でオンラインで試してください。のために
+コマンドラインを使用して、Node.js [cssbeautify]（https://npmjs.org/package/cssbeautify）パッケージをインストールします。
+
+その他の例については、[テストスイート]（http://cssbeautify.com/test/）も参照してください。
+
+
+
+
+## cssbeautify（）関数の使用##
+
+CSS Beautifyは純粋なJavaScriptで記述されているため、JavaScriptが実行できる場所であればどこでも実行できます。
+
+APIは非常に簡単です。
 
 ```javascript
 var result = cssbeautify(style, options);
@@ -74,6 +96,14 @@ in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
+
+
+これにより、コピーを入手した人に無料で許可が与えられます
+このソフトウェアおよび関連するドキュメントファイル（「ソフトウェア」）の
+権利を含むがこれに限定されないソフトウェアの制限なし
+使用、コピー、変更、マージ、公開、配布、サブライセンス、販売
+ソフトウェアのコピー、およびソフトウェアの所有者を許可するため
+次の条件に従って、そのように提供されます。
 
 The above copyright notice and this permission notice shall be included in
 all copies or substantial portions of the Software.
