@@ -21,11 +21,11 @@
     <div class="container">
       <div class="row">
         <div class="description">
-          <h1 class="brand-name">زیباساز CSS</h1>
+          <h1 class="brand-name">CSSstyler</h1>
           <div>
 
             <p class="sub-brand-name">
-              سی‌اس‌اس خود را برای خوانایی بیشتر فرمت‌دهی کنید.
+                Automatically formats your style to be consistent and easy to read
             </p>
           </div>
 
@@ -40,7 +40,7 @@
       <div class="row">
 
         <div class="col-md-12">
-          <h2 class="text-center textarea-title">سی‌اس‌اس <strong>فرمت‌دهی نشدهٔ</strong> خود را وارد کنید</h2>
+          <h2 class="text-center textarea-title">Type your unformatted CSS</h2>
           <textarea class="css-input" id="raw" autofocus="autofocus" spellcheck="false" onChange='format()'
             onKeyDown='format()'>menu{color:red} navigation{background-color:#333 /* darkgrey */}</textarea>
 
@@ -58,26 +58,27 @@
         <ul class="options list-inline">
           <div class="top-options">
             <div class="col-md-12">
-              <div class="col-md-3">
-                <li class="list-inline">
-                  <h5 class="options-title">جدا شده با:</h5>
-                </li>
 
-              </div>
               <div class="col-md-3">
                 <li class=" list-inline"><input checked type="radio" name="indent" id="fourspaces" value="fourspaces"
-                    onChange='format()'>۴ فاصله</li>
-
+                    onChange='format()'>4 spaces</li>
               </div>
+
               <div class="col-md-3">
                 <li class=" list-inline"><input type="radio" name="indent" id="twospaces" value="twospaces"
-                    onChange='format()'>۲ فاصله</li>
-
+                    onChange='format()'>2 spaces</li>
               </div>
-              <div class="col-md-3">
-                <li class=" list-inline"><input type="radio" name="indent" id="tab" value="tab" onChange='format()'>تب
-                </li>
 
+              <div class="col-md-3">
+                <li class=" list-inline"><input type="radio" name="indent" id="tab" value="tab" onChange='format()'>tab
+                </li>
+              </div>
+
+              <div class="col-md-3">
+                <li class="list-inline">
+                  <h5 class="options-title">Indent with
+                </h5>
+                </li>
               </div>
             </div>
 
@@ -85,26 +86,28 @@
 
           <div class="sub-options">
             <div class="col-md-12">
-              <div class="col-md-3">
-                <li class="list-inline">
-                  <h5 class="options-title">آکولاد:</h5>
-                </li>
-              </div>
+
 
               <div class="col-md-3">
                 <li class="list-inline"><input checked type="radio" name="openbrace" id="openbrace-end-of-line"
-                    onChange='format()'>آخر خط</li>
+                    onChange='format()'>end of line</li>
               </div>
 
               <div class="col-md-3">
                 <li class="list-inline"><input type="radio" name="openbrace" id="openbrace-separate-line"
-                    onChange='format()'>خط جداگانه</li>
+                    onChange='format()'>separate line</li>
 
               </div>
 
               <div class="col-md-3">
                 <li class="list-inline"><input checked type="checkbox" name="autosemicolon" id="autosemicolon"
-                    onChange='format()'>سمیکالن اتوماتیک</li>
+                    onChange='format()'>Automatic semicolon</li>
+              </div>
+
+              <div class="col-md-3">
+                <li class="list-inline">
+                  <h5 class="options-title">Open curly brace</h5>
+                </li>
               </div>
 
             </div>
@@ -131,7 +134,8 @@
         </div>
 
         <div class="col-md-12">
-          <h2 class="text-center textarea-title">:سی‌اس‌اس <strong>فرمت‌دهی شده</strong> خود را تحویل بگیرید</h2>
+          <h2 class="text-center textarea-title">Beautified CSS
+        </h2>
           <div class="formatted">
             <textarea id="beautified" rows="22" readonly></textarea>
           </div>
@@ -147,9 +151,9 @@
   <section class="footer">
     <div class="">
       <p>
-        <strong>زیباساز سی‌اس‌اس</strong> یک پروژه‌ی آزاد و متن‌باز است. <a
-          href="https://github.com/senchalabs/cssbeautify">مخرن اصلی</a> - <a
-          href="https://github.com/AmirMehrabi/cssstyler">شاخه‌ی جدا شده</a>
+        <strong>CSSstyler</strong> is an open-source project <a
+          href="https://github.com/senchalabs/cssbeautify">Main repo</a> - <a
+          href="https://github.com/AmirMehrabi/cssstyler">Forked one</a>
       </p>
     </div>
   </section>
