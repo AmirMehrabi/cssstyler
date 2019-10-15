@@ -25,8 +25,7 @@ navigation {
 }
 ```
 
-Try it online at [cssbeautify.com](http://cssbeautify.com). For the
-command-line use, install Node.js [cssbeautify](https://npmjs.org/package/cssbeautify) package.
+Try it online at [amirmehrabi.github.io/cssstyler/](https://amirmehrabi.github.io/cssstyler/).
 
 For more examples, see also its [test suite](http://cssbeautify.com/test/).
 
