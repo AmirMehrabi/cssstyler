@@ -6,8 +6,7 @@ Dieses Projekt ist nur ein fork. Das orginal Repo findet ihr unter [Main repo](h
 
 CSS Beautify ist eine JavaScript Implementation die in [CSS](http://www.w3.org/Style/CSS/) geschriebenenes automatisch einrückt und formatiert.
 
-Given the following style:
-Wenn es in der normalen Syntax angibt:
+Wenn es in der folgenden Syntax angegeben ist:
 
 ```css
 menu {
@@ -46,11 +45,11 @@ var result = cssbeautify(style, options);
 
 **options** ist ein optionales Objekt welches genutzt werden kann um die Formatierung anzupassen. Setzbare Optionen:
 
-- <code>indent</code> ist ein String der für die Einrückung verwendet wird (Standart ist 4 Leerzeichen)
-- <code>openbrace</code> definiert wo die geschweifte Klammer gesetzt wird, entweder am Ende der Zeile(Standart) oder in einer neuen Zeile.
-- <code>autosemicolon</code> Immer ein Semikolon nach der letzten CSS Regel anfügen (Standart ist _false_)
+- <code>indent</code> ist ein String der für die Einrückung verwendet wird (Standard sind 4 Leerzeichen)
+- <code>openbrace</code> definiert wo die geschweifte Klammer gesetzt wird, entweder am Ende der Zeile(Standard) oder in einer neuen Zeile.
+- <code>autosemicolon</code> immer ein Semikolon nach der letzten CSS Regel anfügen (Standard ist _false_)
 
-Example call:
+Beispiel Aufruf:
 
 ```javascript
 var beautified = cssbeautify("menu{opacity:.7}", {
@@ -70,19 +69,19 @@ Copyright (C) 2012 Sencha Inc.
 Copyright (C) 2011 Sencha Inc.
 
 Die Erlaubnis wird hiermit kostenlos jeder Person erteilt, die eine Kopie erhält.
-dieser Software und der dazugehörigen Dokumentationsdateien (die "Software"), um mit ihnen umzugehen.
+Dieser Software und der dazugehörigen Dokumentationsdateien (die "Software"), um mit ihnen umzugehen.
 in der Software ohne Einschränkung, einschließlich und ohne Einschränkung der Rechte.
 verwenden, kopieren, modifizieren, fusionieren, veröffentlichen, verteilen, unterlizenzieren und/oder verkaufen.
 Kopien der Software und um Personen, für die die Software bestimmt ist, zu ermöglichen.
 zu diesem Zweck unter den folgenden Bedingungen zur Verfügung gestellt:
 
 Der obige Urheberrechtshinweis und dieser Genehmigungshinweis müssen enthalten sein in
-alle Kopien oder wesentliche Teile der Software.
+allen Kopien oder wesentliche Teile der Software.
 
-DIE SOFTWARE WIRD "WIE BESEHEN" ZUR VERFÜGUNG GESTELLT, OHNE JEGLICHE GARANTIE, WEDER AUSDRÜCKLICH NOCH STILLSCHWEIGEND.
+DIE SOFTWARE WIRD "WIE ZU SEHEN" ZUR VERFÜGUNG GESTELLT, OHNE JEGLICHE GARANTIE, WEDER AUSDRÜCKLICH NOCH STILLSCHWEIGEND.
 IMPLIZIT, EINSCHLIEßLICH, ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER MARKTGÄNGIGKEIT,
 EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG. IN KEINEM FALL DARF DIE
-AUTOREN ODER URHEBERRECHTSINHABER HAFTEN FÜR JEGLICHE ANSPRÜCHE, SCHÄDEN ODER ANDERE SCHÄDEN.
-HAFTUNG, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSHANDLUNG, EINE UNERLAUBTE HANDLUNG ODER EINE ANDERE HANDELT, AUS,
+AUTOR ODER URHEBERRECHTSINHABER HAFTEN FÜR JEGLICHE ANSPRÜCHE, SCHÄDEN ODER ANDERE SCHÄDEN.
+HAFTUNG, UNABHÄNGIG DAVON, OB ES SICH UM EINE VERTRAGSHANDLUNG, EINE UNERLAUBTE HANDLUNG ODER EINE ANDERE HANDELT,
 AUS ODER IN VERBINDUNG MIT DER SOFTWARE ODER DER NUTZUNG ODER ANDEREN GESCHÄFTEN IN DEN BEREICHEN
-DIE SOFTWARE.
+DER SOFTWARE.
