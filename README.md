@@ -1,4 +1,4 @@
-## Disclaimer of credit ##
+# Disclaimer of credit #
 
 This project is a fork. Take a look at the [Main repo](https://github.com/senchalabs/cssbeautify) .
 
@@ -30,7 +30,9 @@ Try it online at [amirmehrabi.github.io/cssstyler/](https://amirmehrabi.github.i
 For more examples, see also its [test suite](http://cssbeautify.com/test/).
 
 
+# Screenshots #
 
+![screencapture-localhost-cssstyler-index-en-html-2019-10-15-15_36_23](https://user-images.githubusercontent.com/3878847/66830108-93ad8700-ef61-11e9-95d9-df30792b5aef.png)
 
 ## Using cssbeautify() function ##
 
