@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+  <meta charset="utf-8">
+  <title>CSSstyler</title>
+  <link rel="stylesheet" href="assets/bootstrap-rtl.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="assets/thirdparty/codemirror.js" charset="utf-8"></script>
+  <script src="assets/thirdparty/css.js" charset="utf-8"></script>
+  <link rel="stylesheet" type="text/css" href="assets/thirdparty/codemirror.css" />
+  <link rel="stylesheet" type="text/css" href="assets/style.css" />
+  <link rel="stylesheet" type="text/css" href="assets/fonts/fonts.css" />
+  <script src="cssbeautify.js" charset="utf-8"></script>
+  <script src="assets/format.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+  <section class="header">
+    <div class="container">
+      <div class="row">
+        <div class="description">
+          <h1 class="brand-name">CSSstyler</h1>
+          <div>
+
+            <p class="sub-brand-name">
+                Muotoilee automaattisesti tyylisi yhtenäiseksi ja helppolukuiseksi
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="content">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-12">
+          <h2 class="text-center textarea-title">Kirjoita muotoilematon CSS</h2>
+          <textarea class="css-input" id="raw" autofocus="autofocus" spellcheck="false" onChange='format()'
+            onKeyDown='format()'>menu{color:red} navigation{background-color:#333 /* darkgrey */}</textarea>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="options">
+    <div class="container">
+      <div class="row">
+        <ul class="options list-inline">
+          <div class="top-options">
+            <div class="col-md-12">
+
+              <div class="col-md-3">
+                <li class=" list-inline"><input checked type="radio" name="indent" id="fourspaces" value="fourspaces"
+                    onChange='format()'>4 välilyöntiä</li>
+              </div>
+
+              <div class="col-md-3">
+                <li class=" list-inline"><input type="radio" name="indent" id="twospaces" value="twospaces"
+                    onChange='format()'>2 välilyöntiä</li>
+              </div>
+
+              <div class="col-md-3">
+                <li class=" list-inline"><input type="radio" name="indent" id="tab" value="tab" onChange='format()'>sarkainta
+                </li>
+              </div>
+
+              <div class="col-md-3">
+                <li class="list-inline">
+                  <h5 class="options-title">Sisennä käyttäen
+                </h5>
+                </li>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="sub-options">
+            <div class="col-md-12">
+
+
+              <div class="col-md-3">
+                <li class="list-inline"><input checked type="radio" name="openbrace" id="openbrace-end-of-line"
+                    onChange='format()'>rivin loppuun</li>
+              </div>
+
+              <div class="col-md-3">
+                <li class="list-inline"><input type="radio" name="openbrace" id="openbrace-separate-line"
+                    onChange='format()'>uudelle riville</li>
+
+              </div>
+
+              <div class="col-md-3">
+                <li class="list-inline"><input checked type="checkbox" name="autosemicolon" id="autosemicolon"
+                    onChange='format()'>Automaattinen puolipiste</li>
+              </div>
+
+              <div class="col-md-3">
+                <li class="list-inline">
+                  <h5 class="options-title">Avaa aaltosulku</h5>
+                </li>
+              </div>
+
+            </div>
+          </div>
+
+
+
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="formatted">
+    <div class="container">
+
+
+
+      <div class="raw">
+
+
+        <div class="col-md-12">
+
+        </div>
+
+        <div class="col-md-12">
+          <h2 class="text-center textarea-title">Muotoiltu CSS
+        </h2>
+          <div class="formatted">
+            <textarea id="beautified" rows="22" readonly></textarea>
+          </div>
+        </div>
+      </div>
+
+      <br clear="all" />
+
+    </div>
+
+  </section>
+
+  <section class="footer">
+    <div class="">
+      <p>
+        <strong>CSSstyler</strong> on avoimen lähdekoodin projekti <a
+          href="https://github.com/senchalabs/cssbeautify">Main repo</a> - <a
+          href="https://github.com/AmirMehrabi/cssstyler">Forked one</a>
+      </p>
+    </div>
+  </section>
+
+
+
+
+
+</body>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+
+
+
+</html>
