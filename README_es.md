@@ -1,6 +1,6 @@
 ## Descargo de responsabilidad de crédito ##
 
-Este proyecto es un tenedor. Echa un vistazo al [Repo principal](https://github.com/senchalabs/cssbeautify) .
+Este proyecto es un fork. Echa un vistazo al [Repo principal](https://github.com/senchalabs/cssbeautify) .
 
 
 # CSS Beautify #
@@ -30,19 +30,21 @@ Pruébelo en línea en [cssbeautify.com](http://cssbeautify.com). Para el uso de
 Para más ejemplos, vea también su [conjunto de pruebas](http://cssbeautify.com/test/).
 
 
+# Screenshots #
 
+![screencapture-localhost-cssstyler-index-en-html-2019-10-15-15_36_23](https://user-images.githubusercontent.com/41974849/66866553-2698f200-ef5f-11e9-8570-6da1ec7a68ee.png)
 
 ## Usando la función cssbeautify() ##
 
-Como CSS Beautify está escrito en puro JavaScript, puede ejecutarse en cualquier lugar que JavaScript pueda ejecutar.
+Como CSS Beautify está escrito en JavaScript puro, puede ejecutarse en cualquier lugar que JavaScript pueda ejecutarse.
 
-El API es muy sencillo:
+La API es muy fácil:
 
 ```javascript
 var resultado = cssbeautify(estilo, opciones);
 ```
 
-**opciones** es un objecto opcional para ajustar el formato. Opcionas conodicas hasta ahora son:
+**opciones** es un objeto opcional para ajustar el formato. Opciones conocidas hasta ahora son:
 
   *  <code>indent</code> (indentación) es una cadena utilizada para la indentación de la declaración (el valor predeterminado es 4 espacios)
   *  <code>openbrace</code> (llave de apertura) define la ubicación de la llave abierta, ya sea * fin de línea * (predeterminado) o * línea separada *.
@@ -60,7 +62,7 @@ var beautified = cssbeautify('menu{opacity:.7}', {
 
 ## Contribuyendo ##
 
-¡Las contribuciones son bienvenidas! Por favor lea la [Guía de Contribución](https://github.com/AmirMehrabi/cssstyler/blob/master/CONTRIBUTING.md) for more info.
+¡Las contribuciones son bienvenidas! Por favor lea la [Guía de Contribución](https://github.com/AmirMehrabi/cssstyler/blob/master/CONTRIBUTING.md) para más información.
 
 ## Licencia ##
 

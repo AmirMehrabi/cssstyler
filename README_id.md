@@ -1,6 +1,6 @@
 # Disclaimer of credit #
 
-This project is a fork. Take a look at the [Main repo](https://github.com/senchalabs/cssbeautify) .
+Proyek ini merupakan *fork*. Lihat pada [Main repo](https://github.com/senchalabs/cssbeautify) .
 
 
 # CSS Beautify #
@@ -62,27 +62,16 @@ var beautified = cssbeautify('menu{opacity:.7}', {
 
 ## Contributing ##
 
-Contributions are welcomed! Please read the [Contribution Guide](https://github.com/AmirMehrabi/cssstyler/blob/master/CONTRIBUTING.md) for more info.
+Dipersilahkan untuk berkontribusi! Silahkan baca [Contribution Guide](https://github.com/AmirMehrabi/cssstyler/blob/master/CONTRIBUTING.md) untuk info lebih lanjut.
 
 ## License ##
 
-Copyright (C) 2012 Sencha Inc.
-Copyright (C) 2011 Sencha Inc.
+Hak Cipta (C) 2012 Sencha Inc.
+Hak Cipta (C) 2011 Sencha Inc.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Izin menggunakan ini diperbolehkan, bebas untuk mengubah, kepada siapa pun yang mendapatkan salinannya
+perangkat lunak ini dan file dokumentasi terkait ("Perangkat Lunak"), untuk menggunakan Perangkat Lunak tanpa batasan, termasuk tanpa batasan untuk menggunakan, menyalin, memodifikasi, menggabungkan, menerbitkan, mensublisensikan, dan / atau menjual salinan Perangkat Lunak, dan untuk mengizinkan orang-orang kepada siapa Perangkat Lunak ini disediakan untuk melakukannya, tunduk pada ketentuan berikut:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+Pemberitahuan hak cipta di atas dan pemberitahuan izin ini harus dimasukkan dalam semua salinan atau bagian penting Perangkat Lunak.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+PERANGKAT LUNAK INI DISEDIAKAN "SEBAGAIMANA ADANYA", TANPA JAMINAN APA PUN, BAIK TERSURAT MAUPUN TERSIRAT, TERMASUK TETAPI TIDAK TERBATAS PADA JAMINAN PENJUALAN DAGANG, KESESUAIAN UNTUK TUJUAN TERTENTU DAN TIDAK MELIPUTI PELANGGARAN. DALAM KEJADIAN APA PUN PENULIS ATAU PEMEGANG HAK CIPTA TIDAK BERTANGGUNG JAWAB ATAS KLAIM, KERUSAKAN ATAU KEWAJIBAN LAINNYA, BAIK DALAM TINDAKAN KONTRAK, KETENTUAN ATAU KATA LAINNYA, BANGKIT DARI, DI LUAR ATAU DALAM HUBUNGAN DENGAN PERANGKAT LUNAK ATAU PENGGUNAAN LAINNYA.

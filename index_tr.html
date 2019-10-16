@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="tr">
 
 <head>
   <meta charset="utf-8">
-  <title>CSSstyler</title>
+  <title>CSS Styler</title>
   <link rel="stylesheet" href="assets/bootstrap-rtl.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <script src="assets/thirdparty/codemirror.js" charset="utf-8"></script>
@@ -25,7 +25,7 @@
           <div>
 
             <p class="sub-brand-name">
-                Formatta automaticamente il tuo stile in modo che sia coerente e di facile lettura
+                Cssstyler, css kodlarını düzenli ve okunabilir olması için otomatik olarak formatlar
             </p>
           </div>
 
@@ -40,7 +40,7 @@
       <div class="row">
 
         <div class="col-md-12">
-          <h2 class="text-center textarea-title">Digita il tuo CSS non formattato</h2>
+          <h2 class="text-center textarea-title">Düzenlenmemiş CSS kodunu yaz</h2>
           <textarea class="css-input" id="raw" autofocus="autofocus" spellcheck="false" onChange='format()'
             onKeyDown='format()'>menu{color:red} navigation{background-color:#333 /* darkgrey */}</textarea>
 
@@ -61,12 +61,12 @@
 
               <div class="col-md-3">
                 <li class=" list-inline"><input checked type="radio" name="indent" id="fourspaces" value="fourspaces"
-                    onChange='format()'>4 spazi</li>
+                    onChange='format()'>4 boşluk</li>
               </div>
 
               <div class="col-md-3">
                 <li class=" list-inline"><input type="radio" name="indent" id="twospaces" value="twospaces"
-                    onChange='format()'>2 spazi</li>
+                    onChange='format()'>2 boşluk</li>
               </div>
 
               <div class="col-md-3">
@@ -76,7 +76,7 @@
 
               <div class="col-md-3">
                 <li class="list-inline">
-                  <h5 class="options-title">Dividi il testo con
+                  <h5 class="options-title">Satır başı boşluğu için
                 </h5>
                 </li>
               </div>
@@ -90,23 +90,23 @@
 
               <div class="col-md-3">
                 <li class="list-inline"><input checked type="radio" name="openbrace" id="openbrace-end-of-line"
-                    onChange='format()'>a capo</li>
+                    onChange='format()'>satır sonu</li>
               </div>
 
               <div class="col-md-3">
                 <li class="list-inline"><input type="radio" name="openbrace" id="openbrace-separate-line"
-                    onChange='format()'>linea di separazione</li>
+                    onChange='format()'>ayırma çizgisi</li>
 
               </div>
 
               <div class="col-md-3">
                 <li class="list-inline"><input checked type="checkbox" name="autosemicolon" id="autosemicolon"
-                    onChange='format()'>Punto e virgola automatico</li>
+                    onChange='format()'>Otomatik noktalı virgül</li>
               </div>
 
               <div class="col-md-3">
                 <li class="list-inline">
-                  <h5 class="options-title">Apri parentesi graffa</h5>
+                  <h5 class="options-title">Tırnaklı parantez aç</h5>
                 </li>
               </div>
 
@@ -134,7 +134,7 @@
         </div>
 
         <div class="col-md-12">
-          <h2 class="text-center textarea-title">CSS abbellito
+          <h2 class="text-center textarea-title">Güzelleştirilmiş CSS
         </h2>
           <div class="formatted">
             <textarea id="beautified" rows="22" readonly></textarea>
@@ -151,9 +151,9 @@
   <section class="footer">
     <div class="">
       <p>
-        <strong>CSSstyler</strong> è un progetto open source <a
-          href="https://github.com/senchalabs/cssbeautify">Main repo</a> - <a
-          href="https://github.com/AmirMehrabi/cssstyler">Forked one</a>
+        <strong>CSSstyler</strong> açık kaynaklı bir projedir. <a
+          href="https://github.com/senchalabs/cssbeautify">Asıl repo</a> - <a
+          href="https://github.com/AmirMehrabi/cssstyler">Çatallanmış repo</a>
       </p>
     </div>
   </section>
