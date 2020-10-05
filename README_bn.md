@@ -44,11 +44,11 @@ navigation {
 var result = cssbeautify(style, options);
 ```
 
-**options** is an optional object to adjust the formatting. Known options so far are:
+**options** ফরম্যাট ঠিক করার জন্য ঐচ্ছিক অবজেক্ট। এখন পর্যন্ত অপশনগুলো হলোঃ 
 
-  *  <code>indent</code> is a string used for the indentation of the declaration (default is 4 spaces)
-  *  <code>openbrace</code> defines the placement of open curly brace, either *end-of-line* (default) or *separate-line*.
-  *  <code>autosemicolon</code> always inserts a semicolon after the last ruleset (default is *false*)
+  *  <code>indent</code> ডিক্লারেশনের ইন্ডেন্টেশনের জন্য ব্যবহৃত (ডিফল্ট ৪টি স্পেস)
+  *  <code>openbrace</code> কার্কি ব্রেসের অবস্থান ঠিক করে, হয় *end-of-line* (ডিফল্ট) বা *separate-line*.
+  *  <code>autosemicolon</code> সর্বদা শেষ রুলসেটের পরে সেমিকলন বসায় (ডিফল্ট *false*)
 
 কল উদাহরণঃ
 
