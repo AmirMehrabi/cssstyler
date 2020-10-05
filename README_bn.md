@@ -69,15 +69,9 @@ var beautified = cssbeautify('menu{opacity:.7}', {
 Copyright (C) 2012 Sencha Inc.
 Copyright (C) 2011 Sencha Inc.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+এতদ্বারা নিন্মরূপ শর্তে বিনামূল্যে যেকোনো ব্যক্তিকে অনুমতি দেয়া হলো যে এই সফটওয়্যার এবং সংশ্লিষ্ট ডকুমেন্টেশন ফাইল ("সফটওয়্যার") নিয়ে বিনা বাধায় ব্যবহার, অনুলিপি, পরিবর্তন, একত্রীকরণ, প্রকাশ, বিতরণ, লাইসেন্সকরণ এবং/অথবা বিক্রির মতো কাজ করার জন্য এর অনুলিপি রাখা যাবে।
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+উপরোক্ত কপিরাইট নোটিশ এবং এই অনুমতি পত্র এই সফটওয়্যারের সকল কপিতে অথবা অংশে অন্তর্ভুক্ত করতে হবে।
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
