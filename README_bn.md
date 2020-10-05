@@ -73,10 +73,4 @@ Copyright (C) 2011 Sencha Inc.
 
 উপরোক্ত কপিরাইট নোটিশ এবং এই অনুমতি পত্র এই সফটওয়্যারের সকল কপিতে অথবা অংশে অন্তর্ভুক্ত করতে হবে।
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+এই সফটওয়্যারটি কোনোরূপ ওয়ারেন্টি ছাড়া প্রদান করা হচ্ছে। এই সফটওয়ার থেকে, এর বাইরের এবং এর ভিতরের কোনো বিষয়ে কখনোও এটির লেখকবৃন্দ এবং কপিরাইট হোল্ডার দায়ী হবেন না।
