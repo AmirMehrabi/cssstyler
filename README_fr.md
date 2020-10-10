@@ -1,19 +1,19 @@
-# Avis de non-responsabilité en matière de crédit #
+# Crédit #
 
-Ce projet est un dérivé. Jetez un œil au [dépôt principal](https://github.com/senchalabs/cssbeautify) .
+[dépôt principal](https://github.com/senchalabs/cssbeautify) .
 
 
 # CSS Beautify #
 
-CSS Beautify est une implémentation JavaScript pour ré-indenter and reformater les styles écrits en [CSS](http://www.w3.org/Style/CSS/).
+CSS Beautify permet de ré-indenter et reformater votre code [CSS](http://www.w3.org/Style/CSS/).
 
-Avec le style suivant :
+Exemple avec le style suivant:
 
 ```css
 menu{color:red} navigation{background-color:#333}
 ```
 
-CSS Beautify donnera :
+CSS Beautify affichera le code de cette façon:
 
 ```css
 menu {
@@ -25,35 +25,35 @@ navigation {
 }
 ```
 
-Essayez-le en ligne sur [amirmehrabi.github.io/cssstyler/](https://amirmehrabi.github.io/cssstyler/).
+Essayez CSS Beautify en ligne sur [amirmehrabi.github.io/cssstyler/](https://amirmehrabi.github.io/cssstyler/).
 
 Pour plus d'exemples, jetez également un coup d'œil sur cette [suite de tests](http://cssbeautify.com/test/).
 
 
-# Captures d'écrans #
+# Capture d'écran #
 
 ![screencapture-localhost-cssstyler-index-en-html-2019-10-15-15_36_23](https://user-images.githubusercontent.com/3878847/66830108-93ad8700-ef61-11e9-95d9-df30792b5aef.png)
 
 ## Utilisation de la fonction cssbeautify() ##
 
-CSS Beautify étant écrit en JavaScript pure, il peut fonctionner partout où JavaScript fonctionne.
+CSS Beautify étant écrit en JavaScript pure, il fonctionne partout où JavaScript fonctionne.
 
-L'API est extrêmement simple :
+L'API est extrêmement simple:
 
 ```javascript
-var result = cssbeautify(style, options);
+let result = cssbeautify(style, options);
 ```
 
 **options** est un objet optionnel pour ajuster le formatage. Les options actuelles sont :
 
   *  <code>indent</code> est une chaîne de caractères utilisée pour l'indentation de la déclaration (par défaut 4 espaces)
-  *  <code>openbrace</code> définit l'emplacement de l'accolade ouvrante, en fin de ligne *end-of-line* (par défaut) ou sur une ligne séparée *separate-line*.
-  *  <code>autosemicolon</code> insère toujours un point-virgule après la dernière règle (la valeur par défaut est *false*)
+  *  <code>openbrace</code> définit l'emplacement de l'accolade ouvrante, en fin de ligne *end-of-line* (par défaut) ou sur la ligne du dessous *separate-line*.
+  *  <code>autosemicolon</code> insère systèmatiquement un point-virgule après la dernière règle (la valeur par défaut est *false*)
 
-Exemple d'appel :
+Exemple d'appel:
 
 ```javascript
-var beautified = cssbeautify('menu{opacity:.7}', {
+let beautified = cssbeautify('menu{opacity:.7}', {
     indent: '  ',
     openbrace: 'separate-line',
     autosemicolon: true
@@ -62,7 +62,7 @@ var beautified = cssbeautify('menu{opacity:.7}', {
 
 ## Contributions ##
 
-Les contributions sont les bienvenus ! Merci de lire le [Guide de contribution](https://github.com/AmirMehrabi/cssstyler/blob/master/CONTRIBUTING.md) pour plus d'informations.
+Les contributions sont les bienvenues ! Merci de lire le [Guide de contribution](https://github.com/AmirMehrabi/cssstyler/blob/master/CONTRIBUTING.md) pour plus d'informations.
 
 ## License ##
 
